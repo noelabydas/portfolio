@@ -26,7 +26,7 @@
   text-decoration: none;
   transition: .25s ease;
 }
-.blog-container a:hover {
+.blog-tags a:hover {
   border-color: #42f4d7;
   color: #42f4d7;
 }
@@ -36,6 +36,32 @@
   height: 7rem;
   box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
 }
+
+#audiofy{
+      background: url(../images/audiofy.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#emailpgp{
+      background: url(../images/pgp.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#loadbal{
+      background: url(../images/lb.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 
 #prohig {
     background: url(../images/high.png) no-repeat center center;
@@ -193,15 +219,21 @@
   position: relative;
   white-space: nowrap;
 }
-.blog-footer li a {
-  color: #999999;
-}
+
 .published-date {
   border: 1px solid #999999;
   border-radius: 3px;
   padding: 0 .5rem;
 }
 
-.published-date a{
+.git-link {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  padding: 0 .5rem;
   cursor: pointer;
+}
+
+.git-link:hover {
+  border: 1px solid #42f4d7;
+  color: #42f4d7;
 }
